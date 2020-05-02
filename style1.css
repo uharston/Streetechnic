@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'snowboardingregular';
+    src: url('snowboarding-webfont.woff2') format('woff2'),
+         url('snowboarding-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+    
+header {
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: auto; /* Position the navbar at the top of the page */
+  width: 100%; 
+  font-family: 'snowboardingregular';
+  font-size: 300%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: yellow;
+  color: black;}
+
+  img {width:100%}

@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'snowboardingregular';
+    src: url('snowboarding-webfont.woff2') format('woff2'),
+         url('snowboarding-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; 
+  font-family: 'snowboardingregular';
+  font-size: 300%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: yellow;
+  color: black;
+}
+.header {
+  position: relative;
+  text-align:center;
+color: white;
+font-family: 'snowboardingregular';
+font-size: 1000%;
+
+}
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+img {width: 100%;}
+#content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;width: 60%; margin: auto; margin-top: 58px;
+}
+
+footer {background-color: yellow;color: black
+padding-top: 0px;
+ padding-bottom: 15px;
+ text-align: right; 
+ margin-top: 0px;
+ width:100%;}
+
+ 
+
+ @media screen and (max-width: 764px)
+ {#content {width: 90%}
+ }
+ @media screen and (max-width: 400px)
+ {.navbar {font-size: 180%; word-spacing:0px}
+ .header {font-size:500%}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
